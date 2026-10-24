@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>Arclo</AssemblyName>
+    <Product>Arclo File Toolkit</Product>
+    <Title>Arclo</Title>
+    <Description>A native Windows radial toolkit for files and media.</Description>
+    <RootNamespace>Orbit.App</RootNamespace>
+    <Version>0.34.0</Version>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets/Arclo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Orbit.Core/Orbit.Core.csproj" /></ItemGroup>
+  <ItemGroup><EmbeddedResource Include="$(ArcloToolsPayload)" LogicalName="Arclo.BundledTools.zip" Condition="Exists('$(ArcloToolsPayload)')" /></ItemGroup>
+</Project>
+

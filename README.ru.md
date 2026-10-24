@@ -4,7 +4,8 @@
 <p align="center"><strong>Работа с файлами — на расстоянии одной горячей клавиши.</strong></p>
 <p align="center">Набор инструментов Windows с круговым меню у курсора.</p>
 <p align="center">
-  <a href="https://github.com/baronesses/Arclo/releases">Скачать</a> ·
+  <a href="https://github.com/baronesses/Arclo/releases/latest">Скачать</a> ·
+  <a href="BUILDING.md">Сборка из исходников</a> ·
   <a href="README.md">English</a> ·
   <a href="FUNCTIONALITY-RU.md">Руководство</a> ·
   <a href="https://github.com/baronesses/Arclo/issues/new/choose">Обратная связь</a>
@@ -54,7 +55,7 @@
 
 ## Начало работы
 
-1. Запустите **Arclo.exe**. Установка и отдельная среда .NET не нужны.
+1. Скачайте **[Arclo.exe](https://github.com/baronesses/Arclo/releases/latest/download/Arclo.exe)** и запустите. Установка и отдельная среда .NET не нужны.
 2. Выделите файл в Проводнике и нажмите **Ctrl + Alt + Space**. Можно выбрать файлы в самом приложении или перетащить их в круг.
 3. Нажмите действие. Ссылки на дополнительные компоненты обработки доступны внутри приложения, когда они нужны.
 4. Новый файл появится рядом с оригиналом либо в выбранной папке вывода.

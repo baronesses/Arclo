@@ -4,7 +4,8 @@
 <p align="center"><strong>Your files. A shortcut away.</strong></p>
 <p align="center">A Windows file toolkit with a radial menu at your cursor.</p>
 <p align="center">
-  <a href="https://github.com/baronesses/Arclo/releases">Releases</a> ·
+  <a href="https://github.com/baronesses/Arclo/releases/latest">Download</a> ·
+  <a href="BUILDING.md">Build from source</a> ·
   <a href="README.ru.md">Русский</a> ·
   <a href="FUNCTIONALITY-RU.md">Function guide</a> ·
   <a href="https://github.com/baronesses/Arclo/issues/new/choose">Feedback</a>
@@ -54,7 +55,7 @@ The circle adapts to your selection. Previews, settings, progress, and results s
 
 ## Get started
 
-1. Run **Arclo.exe**. No installation or separate .NET runtime is needed.
+1. Download **[Arclo.exe](https://github.com/baronesses/Arclo/releases/latest/download/Arclo.exe)** and run it. No installation or separate .NET runtime is needed.
 2. Select a file in Explorer and press **Ctrl + Alt + Space**. You can also choose files inside Arclo or drag them into the circle.
 3. Pick an action. Additional processing components are available through links inside the app when needed.
 4. Find the new file beside the original or in your chosen output folder.

@@ -1,11 +1,15 @@
-# Local builds and personal state
 bin/
 obj/
 artifacts/
 release/
 .dotnet/
 .vs/
+.idea/
+.nuget/
+.codex/
+.codex-remote-attachments/
 .env
 .env.*
+!.env.example
 *.user
 *.suo
