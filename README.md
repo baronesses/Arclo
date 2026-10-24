@@ -49,6 +49,7 @@ The circle adapts to your selection. Previews, settings, progress, and results s
 - **Keep the queue under control.** Follow progress, pause the next tasks, resume, or cancel. The tray keeps the controls nearby.
 - **Reuse your settings.** Save presets, pin favorites, repeat an operation, or combine image tools into a short chain.
 - **Get to the result.** Open it, reveal it in Explorer, copy the file or path, or compare an image with its original.
+- **Choose your language.** Automatic, Russian, or English; switch in Settings without restarting.
 - **Make it yours.** Choose Crimson Noir glass or the light theme, change the circle size, reduce transparency, and reorder sectors.
 
 ## Get started
@@ -57,6 +58,8 @@ The circle adapts to your selection. Previews, settings, progress, and results s
 2. Select a file in Explorer and press **Ctrl + Alt + Space**. You can also choose files inside Arclo or drag them into the circle.
 3. Pick an action. Additional processing components are available through links inside the app when needed.
 4. Find the new file beside the original or in your chosen output folder.
+
+Use **−** at the top right to minimize the main window to the taskbar. Processing continues.
 
 | Shortcut | Action |
 | --- | --- |
