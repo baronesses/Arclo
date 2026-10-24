@@ -1,0 +1,11 @@
+# Local builds and personal state
+bin/
+obj/
+artifacts/
+release/
+.dotnet/
+.vs/
+.env
+.env.*
+*.user
+*.suo
