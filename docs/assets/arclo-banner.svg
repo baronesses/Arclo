@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+<title id="title">Arclo — Your files. A shortcut away.</title>
+<desc id="desc">Arclo's original geometric wordmark on a Crimson Noir background with a radial motif.</desc>
+<defs>
+ <linearGradient id="background" x2="1" y2="1"><stop stop-color="#120a14"/><stop offset="1" stop-color="#300c24"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#fb276a" stop-opacity=".20"/><stop offset="1" stop-color="#fb276a" stop-opacity="0"/></radialGradient>
+</defs>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg">
+    <ns0:linearGradient id="letter-pink" x1="0" y1="0" x2=".45" y2="1">
+      <ns0:stop offset="0" stop-color="#fffdfc" />
+      <ns0:stop offset=".45" stop-color="#ffeef0" />
+      <ns0:stop offset=".78" stop-color="#f7dae2" />
+      <ns0:stop offset="1" stop-color="#eac2d1" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="letter-a" x1=".15" y1="0" x2=".9" y2="1">
+      <ns0:stop offset="0" stop-color="#fffaf7" />
+      <ns0:stop offset=".53" stop-color="#ffebef" />
+      <ns0:stop offset="1" stop-color="#e8b9c9" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  
+<rect width="1280" height="360" rx="22" fill="url(#background)"/>
+<circle cx="990" cy="180" r="300" fill="url(#glow)"/>
+<g fill="none" stroke="#d88aa7" stroke-opacity=".25">
+ <circle cx="1020" cy="180" r="125"/><circle cx="1020" cy="180" r="96"/>
+ <circle cx="1020" cy="180" r="52" stroke-opacity=".5"/>
+ <path d="M1020 55V84 M1128 117L1103 132 M1128 243L1103 228 M1020 305V276 M912 243L937 228 M912 117L937 132"/>
+</g>
+<circle cx="1020" cy="180" r="124" fill="none" stroke="#fb5788" stroke-width="5" stroke-linecap="round" stroke-dasharray="125 655" transform="rotate(-90 1020 180)"/>
+<g transform="translate(66 70) scale(.72) translate(-300 -812)"><ns0:g xmlns:ns0="http://www.w3.org/2000/svg" id="arclo-lettering">
+    <ns0:path id="letter-A" d="M 315,959 L 378.8,836.7 C 383.9,827.4 390.6,823.0 399.0,823.0 C 407.4,823.0 414.2,827.7 419.2,837.0 L 486.8,959 L 456.6,959 L 402.4,861.6 Q 399.4,855.7 396.3,861.9 L 345.4,959 Z" fill="url(#letter-a)" fill-rule="evenodd" />
+    <ns0:path id="letter-r" d="M 510.6,959 L 510.6,912.2 C 510.6,874.0 525.4,856.9 558.4,856.9 C 567.2,856.9 576.3,857.8 583.0,859.6 L 583.0,882.0 C 574.5,881.1 568.4,880.4 561.8,880.4 C 542.1,880.4 535.2,891.1 535.2,910.3 L 535.2,959 Z" fill="url(#letter-pink)" fill-rule="evenodd" />
+    <ns0:path id="letter-c" d="M 703.2,859.4 L 653.2,859.4 C 625.3,859.4 605.8,878.0 605.8,908.5 C 605.8,940.2 624.7,959.1 653.8,959.1 L 703.2,959.1 L 703.2,937.8 L 657.9,937.8 C 639.2,937.8 629.3,927.1 629.3,909.0 C 629.3,891.3 639.6,880.2 657.3,880.2 L 703.2,880.2 Z" fill="url(#letter-pink)" fill-rule="evenodd" />
+    <ns0:path id="letter-l" d="M 737.0,824.0 L 761.0,824.0 L 761.0,959.0 L 737.0,959.0 Z" fill="url(#letter-pink)" fill-rule="evenodd" />
+    <ns0:path id="letter-o" d="M 856.3,856.9 C 815.6,856.9 792.3,878.4 792.3,908.4 C 792.3,938.6 815.4,959.7 856.3,959.7 C 896.7,959.7 919.4,939.0 919.4,908.4 C 919.4,878.4 896.4,856.9 856.3,856.9 Z M 856.3,879.7 C 881.4,879.7 895.1,890.2 895.1,908.4 C 895.1,927.2 881.1,938.3 856.3,938.3 C 831.9,938.3 816.1,927.2 816.1,908.4 C 816.1,890.2 831.7,879.7 856.3,879.7 Z" fill="url(#letter-pink)" fill-rule="evenodd" />
+  </ns0:g>
+</g>
+<text x="76" y="238" fill="#f5e8ef" font-family="Segoe UI,Arial,sans-serif" font-size="27">Your files. A shortcut away.</text>
+<text x="76" y="280" fill="#c7a8b9" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="2">WINDOWS  ·  RADIAL FILE TOOLKIT  ·  LOCAL PROCESSING</text>
+</svg>

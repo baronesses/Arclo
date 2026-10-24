@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest a useful improvement to Arclo.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: What are you trying to do?
+      description: Describe the task or inconvenience, including an example.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Suggested improvement
+      description: Explain how you would expect it to work in the compact circle or full window.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround or alternatives
+      description: Tell us how you solve this task today.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Relevant file formats, sketches, or non-private examples can help. Avoid sharing personal data.
