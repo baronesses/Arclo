@@ -1,57 +1,20 @@
 name: Bug report
-description: Help reproduce a problem in Arclo.
+description: Something is not working.
 title: "[Bug]: "
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Please describe one problem per report. Share only files and diagnostic text that you are comfortable making public. Logs can contain local paths.
   - type: input
     id: version
     attributes:
-      label: Arclo version
-      description: Include the complete version and the name of the preview ZIP, if available.
-      placeholder: "0.32.0, Windows x64 portable preview"
-    validations:
-      required: true
-  - type: input
-    id: windows
-    attributes:
-      label: Windows version
-      placeholder: "Windows 11 24H2, x64"
-    validations:
-      required: true
+      label: App and Windows version
+      placeholder: "Arclo 0.33.0, Windows 11"
   - type: textarea
-    id: steps
+    id: problem
     attributes:
-      label: Steps to reproduce
-      description: Include the action, input format, and relevant settings.
-      placeholder: |
-        1. Select a file in Explorer...
-        2. Press Ctrl + Alt + Space...
-        3. Choose...
-    validations:
-      required: true
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected result
-    validations:
-      required: true
-  - type: textarea
-    id: actual
-    attributes:
-      label: Actual result
-      description: Include the exact error message when one is shown.
+      label: What happened?
+      description: What were you trying to do, and what happened instead?
     validations:
       required: true
   - type: textarea
     id: sample
     attributes:
-      label: Sample, screenshot, or diagnostics
-      description: A small non-private sample and a screenshot are useful. Review logs for personal information before sharing. Describe whether other files reproduce the problem.
-  - type: textarea
-    id: reproducibility
-    attributes:
-      label: Additional context
-      description: Does it happen every time? Does the full window behave differently from the compact circle? Did an earlier version work?
+      label: Steps, screenshot, or example file
